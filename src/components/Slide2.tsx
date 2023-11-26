@@ -3,7 +3,7 @@ import ShopNow from "./ShopNow";
 
 const Slide2 = () => {
   return (
-    <div className='md:grid md:grid-cols-5'>
+    <div className='md:grid md:grid-cols-5 w-screen'>
       <div className='md:col-span-3'>
         <img
           className=' w-full h-[400px] object-cover'
@@ -13,7 +13,7 @@ const Slide2 = () => {
       </div>
 
       <div
-        className='px-[3rem] py-8 md:pt-[4rem] md:pl-[6rem] md:pb-32 md:pr-[8rem] 
+        className='px-[2rem] md:px-[3rem] py-8 md:pt-[4rem] md:pl-[5rem] md:pb-32 md:pr-[8rem] 
          md:h-[400px] text-left md:col-span-2'
       >
         <h1 className='text-4xl mb-4 tracking-tight  font-bold'>
