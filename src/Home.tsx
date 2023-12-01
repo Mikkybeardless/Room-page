@@ -15,7 +15,7 @@ const Home = () => {
           <Slide1 />
           <div
             className='absolute flex w-[6.5rem] md:w-[9.5rem] p-3 justify-between bg-black text-white  
-          transform -translate-y-1/2 top-[54%] left-[74%] md:left-[60%] md:top-[93%]'
+          transform -translate-y-1/2 top-[55%] left-[75%] md:left-[60%] md:top-[93%]'
           >
             <a
               href='#slide3'
@@ -35,7 +35,7 @@ const Home = () => {
           <Slide2 />
           <div
             className='absolute flex w-[6.5rem] md:w-[9.5rem] p-3 justify-between bg-black text-white 
-           transform -translate-y-1/2 top-[54%] left-[74%] md:left-[60%] md:top-[93%]'
+           transform -translate-y-1/2 top-[54%] left-[75%] md:left-[60%] md:top-[93%]'
           >
             <a
               href='#slide1'
@@ -55,7 +55,7 @@ const Home = () => {
           <Slide3 />
           <div
             className='absolute flex w-[6.5rem] md:w-[9.5rem] p-3 justify-between bg-black text-white  transform
-           -translate-y-1/2 top-[54%] left-[74%] md:left-[60%] md:top-[93%]'
+           -translate-y-1/2 top-[54%] left-[75%] md:left-[60%] md:top-[93%]'
           >
             <a
               href='#slide2'
