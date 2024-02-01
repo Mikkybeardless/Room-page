@@ -9,7 +9,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className='text-white absolute cursor-pointer z-40'>
+    <nav className='text-white absolute cursor-pointer z-40'>
       <div
         className='md:invisible display:fixed z-40 ml-4 mt-[3.5rem]'
         onClick={toggleHamburger}
@@ -34,7 +34,7 @@ const NavBar = () => {
           <li>contact</li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 };
 

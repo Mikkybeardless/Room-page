@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className='relative'>
       <NavBar />
-      <div className='carousel w-full '>
+      <main className='carousel w-full '>
         <div
           id='slide1'
           className='carousel-item relative  md:w-full h-full mb-0'
@@ -71,7 +71,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-      </div>
+      </main>
     </div>
   );
 };

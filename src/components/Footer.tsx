@@ -3,7 +3,7 @@ import footerImage2 from "../assets/images/image-about-light.jpg";
 
 const Footer = () => {
   return (
-    <div className=' grid grid-cols-1 md:grid md:grid-cols-7'>
+    <footer className=' grid grid-cols-1 md:grid-cols-7'>
       <div className='md:col-span-2 w-full'>
         <img
           className='object-cover md:w-fit w-full'
@@ -31,7 +31,7 @@ const Footer = () => {
           alt=''
         />
       </div>
-    </div>
+    </footer>
   );
 };
 
